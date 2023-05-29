@@ -1,2 +1,38 @@
 /* import google fonts - rubik */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Rubik:ital,wght@0,300;0,500;0,700;1,300&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Rubik:ital,wght@0,300;0,500;0,700;1,300&display=swap');
+
+/*** variable CSS ***/
+:root{
+    --header-hight: 3.5rem
+
+    /* colors */
+    /* Color mode HSL(hue, saturation, lightness) */
+    --first-color: hsl(193, 72%, 48%);
+    --first-color-alt: hsl(193, 87%, 43%);
+    --black-color: hsl(193, 12%, 12%);
+    --card-color: hsl(0, 0%, 90%);;
+    --title-color: hsl(193, 12%, 12%);
+    --text-color: hsl(193, 4%, 42%);
+    --text-color-light: hsl(193, 4%, 75%);
+    --body-color: hsl(193, 4%, 97%);
+    --container-color: #fff;
+
+    /* font and typography */
+    /*.5rem = 8px | 1rem = 16px ...*/
+    --body-font: 'Rubik', sans-serif;
+    --biggest-font-size: 2.25rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+
+    /* font weight */
+    --font-medium: 500;
+    --font-semi-bold: 600;
+
+     /* z index */
+     --z-tooltip: 10;
+     --z-fixed: 100;
+}
