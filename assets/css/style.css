@@ -130,3 +130,33 @@ button{
     top: 0;
     z-index: var(--z-fixed);
 }
+
+/*** --- nav --- ***/
+.nav{
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_logo,
+.nav_toggle{
+    color: #fff;
+}
+
+.nav_logo{
+    display: flex; 
+    align-items: center;
+    column-gap: .5rem; 
+    font-weight: var(--font-bold);
+}
+
+.nav_logo-img{
+    width: .75rem;
+}
+
+.nav_toggle{
+    display: inline-flex;
+    font-size: 1.15rem;
+    cursor: pointer;
+}
