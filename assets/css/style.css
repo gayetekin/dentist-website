@@ -120,3 +120,13 @@ button{
     padding-left: 1.25rem;
     margin-bottom: 2.25rem;
 }
+
+/*** --- header --- ***/
+.header{
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: var(--z-fixed);
+}
