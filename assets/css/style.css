@@ -141,7 +141,7 @@ button{
 
 .nav_logo,
 .nav_toggle{
-    color: #fff;
+    color: var(--first-color-alt);
 }
 
 .nav_logo{
